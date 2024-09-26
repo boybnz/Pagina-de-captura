@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    max-width: 900px;
+    margin: auto;
+    color: #fff;
+    background-color: rgb(29, 29, 29);
+}
+header{
+    background-color: rgb(6, 195, 224);
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding: 15x;
+}
+h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+}
+footer{
+    background-color: rgb(0, 131, 192);
+    text-transform: uppercase;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+/* ====================CLASS==================== */
+
+.parte-1{
+    background-image: url(/img/palestrante-grande.avif);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.content-form{
+    width: 250px;
+    background-color: #ffffffbe;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+}
+
+
+.p-parte-1 {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 5px 0   ;
+}
+.estados{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.tamanho-input{
+    height: 30px;
+    border: none;  
+    padding: 0% 10%;
+
+}
+
+.inscrever-botton{
+    text-transform: uppercase;
+    background-color: rgb(2, 170, 170);
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 500 ;
+    border: none;
+}
+
+.parte-2{
+    background-color: rgb(68, 68, 68);
+    display: flex;
+}
+
+.text-prt2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.text-prt2> p{
+    font-family: sans-serif;
+    font-size: 15px;
+}
